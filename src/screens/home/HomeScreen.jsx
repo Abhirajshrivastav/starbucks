@@ -6,7 +6,6 @@ import Heading from '../../components/heading/Heading'
 import Featured from '../../components/featured/Featured'
 ;
 import Info from '../../components/info/Info'
-Info
 
 function HomeScreen() {
   return (
