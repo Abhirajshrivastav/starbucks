@@ -5,7 +5,6 @@ import { Example } from '../../framer motion/Example'
 import FindAStore from '../findAStore/FindAStore'
 import { useSelector } from 'react-redux'
 import { selectUser } from '../../features/userSlice'
-import SignInButton from 'components/signInButton/SignInButton'
 import SignUpButton from '../signUpButton/SignUpButton'
 import LogoutButton from '../logoutButton/LogoutButton'
 
@@ -33,9 +32,6 @@ const Header = ({menuPage}) => {
         <FindAStore />
         {!user ? (
           <>
-//             <Link to='/account/signin'>
-//               <SignInButton />
-//             </Link>
             <Link to='/account/create'>
               <SignUpButton />
             </Link>
