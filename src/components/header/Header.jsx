@@ -5,7 +5,7 @@ import { Example } from '../../framer motion/Example'
 import FindAStore from '../findAStore/FindAStore'
 import { useSelector } from 'react-redux'
 import { selectUser } from '../../features/userSlice'
-// import SignInButton from '../signInButton/SignInButton'
+import SignInButton from 'components/signInButton/SignInButton'
 import SignUpButton from '../signUpButton/SignUpButton'
 import LogoutButton from '../logoutButton/LogoutButton'
 
