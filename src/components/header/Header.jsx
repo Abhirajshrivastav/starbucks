@@ -33,9 +33,9 @@ const Header = ({menuPage}) => {
         <FindAStore />
         {!user ? (
           <>
-            <Link to='/account/signin'>
-              <SignInButton />
-            </Link>
+//             <Link to='/account/signin'>
+//               <SignInButton />
+//             </Link>
             <Link to='/account/create'>
               <SignUpButton />
             </Link>
